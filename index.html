@@ -542,3 +542,193 @@ window.addEventListener('load', function () {
 })
 
 </script>
+
+        
+        <div class="app-content">
+    <div class="section">
+      
+
+
+
+        <!-- row opened -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card overflow-hidden">
+                    <div class="card-header">
+                        <h3 class="card-title">Transaction</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="">
+                            <div class="panel panel-primary">
+                                <div class=" tab-menu-heading">
+                                    <div class="tabs-menu1 ">
+                                        <!-- Tabs -->
+                                        <ul class="nav panel-tabs">
+                                            <li class=""><a href="#tab5" class="active" data-toggle="tab">Referral</a></li>
+                                            <li><a href="#tab6" data-toggle="tab">Pool Payments</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="panel-body tabs-menu-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active " id="tab5">
+                                            <div class="">
+                                                <div class="table-responsive">
+                                                    <table class="table card-table table-striped text-nowrap table-bordered">
+                                                        <thead class="border-top">
+                                                            <tr>
+                                                                <th>TransactionHash</th>
+                                                                <th>From address </th>
+
+
+                                                                <th>Level</th>
+                                                                <th>Amount</th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="autopool_table"></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane " id="tab6">
+                                            <div class="">
+                                                <div class="table-responsive">
+                                                    <table class="table card-table table-striped text-nowrap table-bordered">
+                                                        <thead class="border-top">
+                                                            <tr>
+                                                                <th>TransactionHash</th>
+                                                                <th>From address </th>
+
+
+                                                                <th>Pool No.</th>
+                                                                <th>Amount</th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="transaction_autopool"></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- row closed -->
+    </div>
+</div>
+
+        <!-- App-content closed -->
+<script>
+    $(document).ready(function () {
+
+        $(".resp-tabs-list li").removeClass('resp-tab-active active');
+        $(".resp-tabs-list li.trans").addClass('resp-tab-active active')
+
+    })
+</script>
+
+        <!-- Footer opened -->
+        <footer class="footer-main leftmenu-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6  mt-2 mb-2 p-l-10">
+                        <span class="p-r-10">Contract address</span>
+                        <a href="https://etherscan.io/address/0x924a99087196f4b23e312ae6110218e54e0dbb51" class="text-success" target="_blank">
+                            0x924a99087196f4b23e312ae6110218e54e0dbb51 <i class="fa fa-external-link"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-6  mt-2 mb-2 text-center">
+                        Copyright © 2020 <a href="#" class="fs-14 text-primary">https://1dapp.github.io</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer closed -->
+    </div>
+
+    <!-- Back-to-top -->
+    <a href="#top" id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- Jquery-scripts -->
+    <script src="https://bullrun.live/Content/assets/js/vendors/jquery-3.2.1.min.js"></script>
+
+    <!-- Moment js-->
+    <script src="https://bullrun.live/Content/assets/plugins/moment/moment.min.js"></script>
+
+    <!-- Bootstrap-scripts js -->
+    <script src="https://bullrun.live/Content/assets/js/vendors/bootstrap.bundle.min.js"></script>
+
+    <!-- Sparkline JS-->
+    <script src="https://bullrun.live/Content/assets/js/vendors/jquery.sparkline.min.js"></script>
+
+    <!-- Bootstrap-daterangepicker js -->
+    <script src="https://bullrun.live/Content/assets/plugins/bootstrap-daterangepicker/daterangepicker.js"></script>
+
+    <!-- Bootstrap-datepicker js -->
+    <script src="https://bullrun.live/Content/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+
+    <!-- Chart-circle js -->
+    <script src="https://bullrun.live/Content/assets/js/vendors/circle-progress.min.js"></script>
+
+    <!-- Rating-star js -->
+    <script src="https://bullrun.live/Content/assets/plugins/rating/jquery.rating-stars.js"></script>
+
+    <!-- Custom scroll bar js-->
+    <script src="https://bullrun.live/Content/assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- P-scroll js -->
+    <script src="https://bullrun.live/Content/assets/plugins/p-scroll/p-scroll.js"></script>
+    <script src="https://bullrun.live/Content/assets/plugins/p-scroll/p-scroll-leftmenu.js"></script>
+
+    <!-- Sidemenu js-->
+    <script src="https://bullrun.live/Content/assets/plugins/sidemenu/sidemenu.js"></script>
+
+    <!-- Sidemenu-respoansive-tabs js -->
+    <script src="https://bullrun.live/Content/assets/plugins/sidemenu-responsive-tabs/js/sidemenu-responsive-tabs.js"></script>
+
+    <!-- Leftmenu js -->
+    <script src="https://bullrun.live/Content/assets/js/left-menu.js"></script>
+
+    <!--Newsticker js-->
+    <script src="https://bullrun.live/Content/assets/plugins/newsticker/jquery.jConveyorTicker.js"></script>
+    <script src="https://bullrun.live/Content/assets/js/newsticker.js"></script>
+
+    <!-- Chart js-->
+    <script src="https://bullrun.live/Content/assets/plugins/chart/chart.min.js"></script>
+
+    <!-- Nice-select js-->
+    <script src="https://bullrun.live/Content/assets/plugins/jquery-nice-select/js/jquery.nice-select.js"></script>
+    <script src="/Content/assets/plugins/jquery-nice-select/js/nice-select.js"></script>
+
+    <!-- Apexchart js-->
+    <script src="https://bullrun.live/Content/assets/js/apexcharts.js"></script>
+
+    <!-- Rightsidebar js -->
+    <script src="https://bullrun.live/Content/assets/plugins/sidebar/sidebar.js"></script>
+
+    <!-- Index js-->
+    <script src="https://bullrun.live/Content/assets/js/index2.js"></script>
+
+    <!-- Custom js-->
+    <script src="https://bullrun.live/Content/assets/js/custom.js"></script>
+    <!--LOgout Js-->
+    
+    <script> 
+     $(document).ready(function() {
+        $('.logoutuser').click(function () {
+        
+            var account = localStorage.removeItem("address", null);
+            location.href = "https://1dapp.github.io/signin";
+        });
+    });
+    </script>
+</body>
+</html>
